@@ -1,0 +1,315 @@
+2026-09-04 06:52:11.000 info Microsoft.Hosting.Lifetime Now listening on: http://localhost:5187
+2026-09-04 06:52:11.180 info Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2026-09-04 06:52:11.270 info Microsoft.Hosting.Lifetime Hosting environment: Development
+2026-09-04 06:52:14.680 info ItAssist.Api.Infrastructure.JournalConsole Depot charge | chemin=/srv/it-assist/data/tickets.jsonl | tickets=252
+2026-09-04 06:52:18.009 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0057/escalade - -
+2026-09-04 06:52:18.012 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0057 | priorite=Normale | engagement=5 | joursOuvresEcoules=32 | escalade=True
+2026-09-04 06:52:18.019 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0057 | escalade=True
+2026-09-04 06:52:18.025 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0057/escalade - 200 - application/json;+charset=utf-8 17.9008ms
+2026-09-04 06:52:38.621 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0247/escalade - -
+2026-09-04 06:52:38.630 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0247 | priorite=Normale | engagement=5 | joursOuvresEcoules=3 | escalade=False
+2026-09-04 06:52:38.639 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0247 | escalade=False
+2026-09-04 06:52:38.645 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0247/escalade - 200 - application/json;+charset=utf-8 33.7564ms
+2026-09-04 06:53:20.427 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0038/escalade - -
+2026-09-04 06:53:20.444 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0038 | priorite=Critique | engagement=2 | joursOuvresEcoules=134 | escalade=True
+2026-09-04 06:53:20.451 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0038 | escalade=True
+2026-09-04 06:53:20.453 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0038/escalade - 200 - application/json;+charset=utf-8 26.3445ms
+2026-09-04 06:53:58.259 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0095/escalade - -
+2026-09-04 06:53:58.274 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0095 | priorite=Haute | engagement=1 | joursOuvresEcoules=34 | escalade=True
+2026-09-04 06:53:58.282 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0095 | escalade=True
+2026-09-04 06:53:58.285 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0095/escalade - 200 - application/json;+charset=utf-8 25.3827ms
+2026-09-04 06:54:28.085 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0047/escalade - -
+2026-09-04 06:54:28.092 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0047 | priorite=Normale | engagement=5 | joursOuvresEcoules=65 | escalade=True
+2026-09-04 06:54:28.094 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0047 | escalade=True
+2026-09-04 06:54:28.098 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0047/escalade - 200 - application/json;+charset=utf-8 8.2119ms
+2026-09-04 06:55:05.617 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0218/escalade - -
+2026-09-04 06:55:05.632 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0218 | priorite=Normale | engagement=5 | joursOuvresEcoules=119 | escalade=True
+2026-09-04 06:55:05.637 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0218 | escalade=True
+2026-09-04 06:55:05.640 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0218/escalade - 200 - application/json;+charset=utf-8 30.5897ms
+2026-09-04 06:55:13.640 warn ItAssist.Api.Infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 06:55:34.094 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0002/escalade - -
+2026-09-04 06:55:34.120 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0002 | priorite=Critique | engagement=2 | joursOuvresEcoules=84 | escalade=True
+2026-09-04 06:55:34.128 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0002 | escalade=True
+2026-09-04 06:55:34.131 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0002/escalade - 200 - application/json;+charset=utf-8 33.4051ms
+2026-09-04 06:55:58.099 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0104/escalade - -
+2026-09-04 06:55:58.112 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0104 | priorite=Normale | engagement=5 | joursOuvresEcoules=139 | escalade=True
+2026-09-04 06:55:58.120 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0104 | escalade=True
+2026-09-04 06:55:58.125 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0104/escalade - 200 - application/json;+charset=utf-8 25.6570ms
+2026-09-04 06:56:07.125 warn ItAssist.Api.Infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 06:56:19.816 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0059/escalade - -
+2026-09-04 06:56:19.820 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0059 | priorite=Basse | engagement=10 | joursOuvresEcoules=34 | escalade=True
+2026-09-04 06:56:19.824 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0059 | escalade=True
+2026-09-04 06:56:19.828 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0059/escalade - 200 - application/json;+charset=utf-8 20.7345ms
+2026-09-04 06:56:50.239 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0246/escalade - -
+2026-09-04 06:56:50.247 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0246 | priorite=Haute | engagement=1 | joursOuvresEcoules=2 | escalade=True
+2026-09-04 06:56:50.251 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0246 | escalade=True
+2026-09-04 06:56:50.257 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0246/escalade - 200 - application/json;+charset=utf-8 21.1520ms
+2026-09-04 06:57:03.368 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0034/escalade - -
+2026-09-04 06:57:03.396 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0034 | priorite=Normale | engagement=5 | joursOuvresEcoules=84 | escalade=True
+2026-09-04 06:57:03.404 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0034 | escalade=True
+2026-09-04 06:57:03.410 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0034/escalade - 200 - application/json;+charset=utf-8 35.2525ms
+2026-09-04 06:57:36.484 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0064/escalade - -
+2026-09-04 06:57:36.507 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0064 | priorite=Normale | engagement=5 | joursOuvresEcoules=134 | escalade=True
+2026-09-04 06:57:36.512 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0064 | escalade=True
+2026-09-04 06:57:36.516 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0064/escalade - 200 - application/json;+charset=utf-8 23.6105ms
+2026-09-04 06:57:44.343 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0102/escalade - -
+2026-09-04 06:57:44.360 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0102 | priorite=Basse | engagement=10 | joursOuvresEcoules=144 | escalade=True
+2026-09-04 06:57:44.369 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0102 | escalade=True
+2026-09-04 06:57:44.372 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0102/escalade - 200 - application/json;+charset=utf-8 34.2207ms
+2026-09-04 06:58:09.599 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0243/escalade - -
+2026-09-04 06:58:09.612 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0243 | priorite=Critique | engagement=2 | joursOuvresEcoules=2 | escalade=False
+2026-09-04 06:58:09.618 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0243 | escalade=False
+2026-09-04 06:58:09.624 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0243/escalade - 200 - application/json;+charset=utf-8 23.9956ms
+2026-09-04 06:58:36.535 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0050/escalade - -
+2026-09-04 06:58:36.546 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0050 | priorite=Normale | engagement=5 | joursOuvresEcoules=89 | escalade=True
+2026-09-04 06:58:36.548 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0050 | escalade=True
+2026-09-04 06:58:36.551 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0050/escalade - 200 - application/json;+charset=utf-8 16.8234ms
+2026-09-04 06:58:42.551 warn ItAssist.Api.Infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 06:58:55.612 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0129/escalade - -
+2026-09-04 06:58:55.639 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0129 | priorite=Normale | engagement=5 | joursOuvresEcoules=145 | escalade=True
+2026-09-04 06:58:55.641 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0129 | escalade=True
+2026-09-04 06:58:55.647 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0129/escalade - 200 - application/json;+charset=utf-8 20.4656ms
+2026-09-04 06:59:33.193 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0019/escalade - -
+2026-09-04 06:59:33.221 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0019 | priorite=Normale | engagement=5 | joursOuvresEcoules=124 | escalade=True
+2026-09-04 06:59:33.227 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0019 | escalade=True
+2026-09-04 06:59:33.232 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0019/escalade - 200 - application/json;+charset=utf-8 18.3846ms
+2026-09-04 06:59:38.135 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0252/escalade - -
+2026-09-04 06:59:38.142 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0252 | priorite=Basse | engagement=10 | joursOuvresEcoules=4 | escalade=False
+2026-09-04 06:59:38.145 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0252 | escalade=False
+2026-09-04 06:59:38.146 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0252/escalade - 200 - application/json;+charset=utf-8 36.9261ms
+2026-09-04 06:59:47.161 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0232/escalade - -
+2026-09-04 06:59:47.173 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0232 | priorite=Critique | engagement=2 | joursOuvresEcoules=63 | escalade=True
+2026-09-04 06:59:47.178 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0232 | escalade=True
+2026-09-04 06:59:47.184 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0232/escalade - 200 - application/json;+charset=utf-8 20.2522ms
+2026-09-04 07:00:19.167 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0139/escalade - -
+2026-09-04 07:00:19.195 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0139 | priorite=Normale | engagement=5 | joursOuvresEcoules=103 | escalade=True
+2026-09-04 07:00:19.203 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0139 | escalade=True
+2026-09-04 07:00:19.204 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0139/escalade - 200 - application/json;+charset=utf-8 36.9663ms
+2026-09-04 07:00:49.085 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0167/escalade - -
+2026-09-04 07:00:49.089 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0167 | priorite=Basse | engagement=10 | joursOuvresEcoules=144 | escalade=True
+2026-09-04 07:00:49.092 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0167 | escalade=True
+2026-09-04 07:00:49.098 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0167/escalade - 200 - application/json;+charset=utf-8 34.8759ms
+2026-09-04 07:01:22.532 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0052/escalade - -
+2026-09-04 07:01:22.561 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0052 | priorite=Critique | engagement=2 | joursOuvresEcoules=49 | escalade=True
+2026-09-04 07:01:22.565 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0052 | escalade=True
+2026-09-04 07:01:22.569 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0052/escalade - 200 - application/json;+charset=utf-8 7.4552ms
+2026-09-04 07:02:02.535 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0053/escalade - -
+2026-09-04 07:02:02.552 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0053 | priorite=Haute | engagement=1 | joursOuvresEcoules=124 | escalade=True
+2026-09-04 07:02:02.553 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0053 | escalade=True
+2026-09-04 07:02:02.556 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0053/escalade - 200 - application/json;+charset=utf-8 30.5288ms
+2026-09-04 07:02:12.586 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0189/escalade - -
+2026-09-04 07:02:12.600 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0189 | priorite=Critique | engagement=2 | joursOuvresEcoules=25 | escalade=True
+2026-09-04 07:02:12.605 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0189 | escalade=True
+2026-09-04 07:02:12.608 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0189/escalade - 200 - application/json;+charset=utf-8 34.5361ms
+2026-09-04 07:02:21.550 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0131/escalade - -
+2026-09-04 07:02:21.568 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0131 | priorite=Normale | engagement=5 | joursOuvresEcoules=47 | escalade=True
+2026-09-04 07:02:21.573 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0131 | escalade=True
+2026-09-04 07:02:21.575 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0131/escalade - 200 - application/json;+charset=utf-8 39.7988ms
+2026-09-04 07:02:29.183 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0011/escalade - -
+2026-09-04 07:02:29.213 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0011 | priorite=Normale | engagement=5 | joursOuvresEcoules=113 | escalade=True
+2026-09-04 07:02:29.217 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0011 | escalade=True
+2026-09-04 07:02:29.219 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0011/escalade - 200 - application/json;+charset=utf-8 7.8265ms
+2026-09-04 07:03:12.254 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0179/escalade - -
+2026-09-04 07:03:12.277 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0179 | priorite=Critique | engagement=2 | joursOuvresEcoules=48 | escalade=True
+2026-09-04 07:03:12.284 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0179 | escalade=True
+2026-09-04 07:03:12.289 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0179/escalade - 200 - application/json;+charset=utf-8 40.5354ms
+2026-09-04 07:03:57.699 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0250/escalade - -
+2026-09-04 07:03:57.713 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0250 | priorite=Haute | engagement=1 | joursOuvresEcoules=1 | escalade=False
+2026-09-04 07:03:57.716 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0250 | escalade=False
+2026-09-04 07:03:57.718 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0250/escalade - 200 - application/json;+charset=utf-8 32.7713ms
+2026-09-04 07:04:04.530 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0015/escalade - -
+2026-09-04 07:04:04.538 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0015 | priorite=Normale | engagement=5 | joursOuvresEcoules=4 | escalade=False
+2026-09-04 07:04:04.546 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0015 | escalade=False
+2026-09-04 07:04:04.548 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0015/escalade - 200 - application/json;+charset=utf-8 19.2190ms
+2026-09-04 07:04:09.890 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0153/escalade - -
+2026-09-04 07:04:09.909 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0153 | priorite=Normale | engagement=5 | joursOuvresEcoules=62 | escalade=True
+2026-09-04 07:04:09.917 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0153 | escalade=True
+2026-09-04 07:04:09.921 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0153/escalade - 200 - application/json;+charset=utf-8 26.7040ms
+2026-09-04 07:04:48.573 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0248/escalade - -
+2026-09-04 07:04:48.585 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0248 | priorite=Normale | engagement=5 | joursOuvresEcoules=1 | escalade=False
+2026-09-04 07:04:48.589 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0248 | escalade=False
+2026-09-04 07:04:48.592 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0248/escalade - 200 - application/json;+charset=utf-8 34.1226ms
+2026-09-04 07:05:23.950 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0137/escalade - -
+2026-09-04 07:05:23.969 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0137 | priorite=Normale | engagement=5 | joursOuvresEcoules=173 | escalade=True
+2026-09-04 07:05:23.970 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0137 | escalade=True
+2026-09-04 07:05:23.972 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0137/escalade - 200 - application/json;+charset=utf-8 20.9029ms
+2026-09-04 07:05:46.998 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0170/escalade - -
+2026-09-04 07:05:47.013 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0170 | priorite=Normale | engagement=5 | joursOuvresEcoules=148 | escalade=True
+2026-09-04 07:05:47.018 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0170 | escalade=True
+2026-09-04 07:05:47.021 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0170/escalade - 200 - application/json;+charset=utf-8 4.6808ms
+2026-09-04 07:06:05.951 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0056/escalade - -
+2026-09-04 07:06:05.967 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0056 | priorite=Critique | engagement=2 | joursOuvresEcoules=134 | escalade=True
+2026-09-04 07:06:05.973 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0056 | escalade=True
+2026-09-04 07:06:05.979 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0056/escalade - 200 - application/json;+charset=utf-8 17.8702ms
+2026-09-04 07:06:13.625 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0203/escalade - -
+2026-09-04 07:06:13.653 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0203 | priorite=Basse | engagement=10 | joursOuvresEcoules=35 | escalade=True
+2026-09-04 07:06:13.659 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0203 | escalade=True
+2026-09-04 07:06:13.661 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0203/escalade - 200 - application/json;+charset=utf-8 12.3156ms
+2026-09-04 07:06:55.468 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0066/escalade - -
+2026-09-04 07:06:55.497 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0066 | priorite=Critique | engagement=2 | joursOuvresEcoules=149 | escalade=True
+2026-09-04 07:06:55.506 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0066 | escalade=True
+2026-09-04 07:06:55.508 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0066/escalade - 200 - application/json;+charset=utf-8 13.5883ms
+2026-09-04 07:07:07.508 warn ItAssist.Api.Infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:07:49.341 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0049/escalade - -
+2026-09-04 07:07:49.370 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0049 | priorite=Haute | engagement=1 | joursOuvresEcoules=152 | escalade=True
+2026-09-04 07:07:49.375 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0049 | escalade=True
+2026-09-04 07:07:49.380 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0049/escalade - 200 - application/json;+charset=utf-8 16.4217ms
+2026-09-04 07:07:59.375 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0096/escalade - -
+2026-09-04 07:07:59.377 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0096 | priorite=Haute | engagement=1 | joursOuvresEcoules=135 | escalade=True
+2026-09-04 07:07:59.386 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0096 | escalade=True
+2026-09-04 07:07:59.391 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0096/escalade - 200 - application/json;+charset=utf-8 17.8948ms
+2026-09-04 07:08:35.575 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0085/escalade - -
+2026-09-04 07:08:35.589 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0085 | priorite=Normale | engagement=5 | joursOuvresEcoules=69 | escalade=True
+2026-09-04 07:08:35.590 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0085 | escalade=True
+2026-09-04 07:08:35.595 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0085/escalade - 200 - application/json;+charset=utf-8 31.6490ms
+2026-09-04 07:08:45.595 warn ItAssist.Api.Infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:09:11.709 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0147/escalade - -
+2026-09-04 07:09:11.712 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0147 | priorite=Critique | engagement=2 | joursOuvresEcoules=142 | escalade=True
+2026-09-04 07:09:11.713 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0147 | escalade=True
+2026-09-04 07:09:11.716 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0147/escalade - 200 - application/json;+charset=utf-8 32.8177ms
+2026-09-04 07:09:25.112 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0178/escalade - -
+2026-09-04 07:09:25.119 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0178 | priorite=Critique | engagement=2 | joursOuvresEcoules=11 | escalade=True
+2026-09-04 07:09:25.128 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0178 | escalade=True
+2026-09-04 07:09:25.131 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0178/escalade - 200 - application/json;+charset=utf-8 14.2430ms
+2026-09-04 07:09:26.131 warn ItAssist.Api.Infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:09:29.381 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0183/escalade - -
+2026-09-04 07:09:29.403 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0183 | priorite=Normale | engagement=5 | joursOuvresEcoules=96 | escalade=True
+2026-09-04 07:09:29.405 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0183 | escalade=True
+2026-09-04 07:09:29.408 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0183/escalade - 200 - application/json;+charset=utf-8 31.3883ms
+2026-09-04 07:10:07.288 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0172/escalade - -
+2026-09-04 07:10:07.312 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0172 | priorite=Normale | engagement=5 | joursOuvresEcoules=90 | escalade=True
+2026-09-04 07:10:07.319 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0172 | escalade=True
+2026-09-04 07:10:07.320 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0172/escalade - 200 - application/json;+charset=utf-8 35.1566ms
+2026-09-04 07:10:15.282 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0149/escalade - -
+2026-09-04 07:10:15.303 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0149 | priorite=Normale | engagement=5 | joursOuvresEcoules=125 | escalade=True
+2026-09-04 07:10:15.307 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0149 | escalade=True
+2026-09-04 07:10:15.308 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0149/escalade - 200 - application/json;+charset=utf-8 35.5404ms
+2026-09-04 07:10:29.809 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0003/escalade - -
+2026-09-04 07:10:29.837 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0003 | priorite=Haute | engagement=1 | joursOuvresEcoules=41 | escalade=True
+2026-09-04 07:10:29.842 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0003 | escalade=True
+2026-09-04 07:10:29.846 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0003/escalade - 200 - application/json;+charset=utf-8 5.4400ms
+2026-09-04 07:10:33.846 warn ItAssist.Api.Infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:10:53.217 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0221/escalade - -
+2026-09-04 07:10:53.224 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0221 | priorite=Critique | engagement=2 | joursOuvresEcoules=21 | escalade=True
+2026-09-04 07:10:53.229 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0221 | escalade=True
+2026-09-04 07:10:53.231 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0221/escalade - 200 - application/json;+charset=utf-8 14.9294ms
+2026-09-04 07:11:06.075 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0192/escalade - -
+2026-09-04 07:11:06.099 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0192 | priorite=Normale | engagement=5 | joursOuvresEcoules=121 | escalade=True
+2026-09-04 07:11:06.107 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0192 | escalade=True
+2026-09-04 07:11:06.111 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0192/escalade - 200 - application/json;+charset=utf-8 22.2563ms
+2026-09-04 07:11:45.660 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0014/escalade - -
+2026-09-04 07:11:45.662 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0014 | priorite=Normale | engagement=5 | joursOuvresEcoules=41 | escalade=True
+2026-09-04 07:11:45.665 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0014 | escalade=True
+2026-09-04 07:11:45.669 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0014/escalade - 200 - application/json;+charset=utf-8 7.3283ms
+2026-09-04 07:12:09.063 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0087/escalade - -
+2026-09-04 07:12:09.069 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0087 | priorite=Critique | engagement=2 | joursOuvresEcoules=149 | escalade=True
+2026-09-04 07:12:09.075 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0087 | escalade=True
+2026-09-04 07:12:09.078 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0087/escalade - 200 - application/json;+charset=utf-8 33.6962ms
+2026-09-04 07:12:38.289 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0061/escalade - -
+2026-09-04 07:12:38.292 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0061 | priorite=Haute | engagement=1 | joursOuvresEcoules=107 | escalade=True
+2026-09-04 07:12:38.299 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0061 | escalade=True
+2026-09-04 07:12:38.303 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0061/escalade - 200 - application/json;+charset=utf-8 32.7940ms
+2026-09-04 07:12:45.403 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0089/escalade - -
+2026-09-04 07:12:45.405 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0089 | priorite=Critique | engagement=2 | joursOuvresEcoules=124 | escalade=True
+2026-09-04 07:12:45.408 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0089 | escalade=True
+2026-09-04 07:12:45.414 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0089/escalade - 200 - application/json;+charset=utf-8 38.9207ms
+2026-09-04 07:13:13.415 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0086/escalade - -
+2026-09-04 07:13:13.436 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0086 | priorite=Critique | engagement=2 | joursOuvresEcoules=144 | escalade=True
+2026-09-04 07:13:13.445 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0086 | escalade=True
+2026-09-04 07:13:13.451 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0086/escalade - 200 - application/json;+charset=utf-8 36.3955ms
+2026-09-04 07:13:45.916 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0199/escalade - -
+2026-09-04 07:13:45.938 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0199 | priorite=Critique | engagement=2 | joursOuvresEcoules=147 | escalade=True
+2026-09-04 07:13:45.944 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0199 | escalade=True
+2026-09-04 07:13:45.948 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0199/escalade - 200 - application/json;+charset=utf-8 23.4952ms
+2026-09-04 07:14:19.488 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0106/escalade - -
+2026-09-04 07:14:19.491 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0106 | priorite=Critique | engagement=2 | joursOuvresEcoules=88 | escalade=True
+2026-09-04 07:14:19.499 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0106 | escalade=True
+2026-09-04 07:14:19.500 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0106/escalade - 200 - application/json;+charset=utf-8 11.2350ms
+2026-09-04 07:14:55.960 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0237/escalade - -
+2026-09-04 07:14:55.976 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0237 | priorite=Basse | engagement=10 | joursOuvresEcoules=35 | escalade=True
+2026-09-04 07:14:55.980 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0237 | escalade=True
+2026-09-04 07:14:55.982 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0237/escalade - 200 - application/json;+charset=utf-8 26.6541ms
+2026-09-04 07:15:15.391 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0124/escalade - -
+2026-09-04 07:15:15.409 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0124 | priorite=Critique | engagement=2 | joursOuvresEcoules=127 | escalade=True
+2026-09-04 07:15:15.415 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0124 | escalade=True
+2026-09-04 07:15:15.418 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0124/escalade - 200 - application/json;+charset=utf-8 39.1995ms
+2026-09-04 07:15:18.643 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0101/escalade - -
+2026-09-04 07:15:18.669 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0101 | priorite=Haute | engagement=1 | joursOuvresEcoules=59 | escalade=True
+2026-09-04 07:15:18.670 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0101 | escalade=True
+2026-09-04 07:15:18.676 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0101/escalade - 200 - application/json;+charset=utf-8 8.1830ms
+2026-09-04 07:15:53.979 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0161/escalade - -
+2026-09-04 07:15:54.000 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0161 | priorite=Critique | engagement=2 | joursOuvresEcoules=106 | escalade=True
+2026-09-04 07:15:54.007 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0161 | escalade=True
+2026-09-04 07:15:54.010 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0161/escalade - 200 - application/json;+charset=utf-8 38.8684ms
+2026-09-04 07:16:06.010 warn ItAssist.Api.Infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:16:24.261 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0076/escalade - -
+2026-09-04 07:16:24.266 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0076 | priorite=Haute | engagement=1 | joursOuvresEcoules=119 | escalade=True
+2026-09-04 07:16:24.268 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0076 | escalade=True
+2026-09-04 07:16:24.274 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0076/escalade - 200 - application/json;+charset=utf-8 41.4997ms
+2026-09-04 07:16:44.668 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0200/escalade - -
+2026-09-04 07:16:44.694 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0200 | priorite=Haute | engagement=1 | joursOuvresEcoules=129 | escalade=True
+2026-09-04 07:16:44.699 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0200 | escalade=True
+2026-09-04 07:16:44.700 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0200/escalade - 200 - application/json;+charset=utf-8 35.6907ms
+2026-09-04 07:17:04.129 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0033/escalade - -
+2026-09-04 07:17:04.135 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0033 | priorite=Critique | engagement=2 | joursOuvresEcoules=34 | escalade=True
+2026-09-04 07:17:04.139 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0033 | escalade=True
+2026-09-04 07:17:04.145 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0033/escalade - 200 - application/json;+charset=utf-8 11.5368ms
+2026-09-04 07:17:25.629 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0180/escalade - -
+2026-09-04 07:17:25.658 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0180 | priorite=Critique | engagement=2 | joursOuvresEcoules=74 | escalade=True
+2026-09-04 07:17:25.667 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0180 | escalade=True
+2026-09-04 07:17:25.672 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0180/escalade - 200 - application/json;+charset=utf-8 33.1945ms
+2026-09-04 07:17:45.800 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0039/escalade - -
+2026-09-04 07:17:45.821 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0039 | priorite=Haute | engagement=1 | joursOuvresEcoules=139 | escalade=True
+2026-09-04 07:17:45.828 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0039 | escalade=True
+2026-09-04 07:17:45.830 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0039/escalade - 200 - application/json;+charset=utf-8 12.3338ms
+2026-09-04 07:17:48.522 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0188/escalade - -
+2026-09-04 07:17:48.551 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0188 | priorite=Normale | engagement=5 | joursOuvresEcoules=157 | escalade=True
+2026-09-04 07:17:48.557 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0188 | escalade=True
+2026-09-04 07:17:48.563 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0188/escalade - 200 - application/json;+charset=utf-8 14.6654ms
+2026-09-04 07:17:52.923 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0075/escalade - -
+2026-09-04 07:17:52.946 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0075 | priorite=Basse | engagement=10 | joursOuvresEcoules=33 | escalade=True
+2026-09-04 07:17:52.951 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0075 | escalade=True
+2026-09-04 07:17:52.957 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0075/escalade - 200 - application/json;+charset=utf-8 3.7041ms
+2026-09-04 07:18:26.500 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0224/escalade - -
+2026-09-04 07:18:26.511 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0224 | priorite=Basse | engagement=10 | joursOuvresEcoules=40 | escalade=True
+2026-09-04 07:18:26.519 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0224 | escalade=True
+2026-09-04 07:18:26.525 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0224/escalade - 200 - application/json;+charset=utf-8 13.6691ms
+2026-09-04 07:18:43.655 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0010/escalade - -
+2026-09-04 07:18:43.666 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0010 | priorite=Normale | engagement=5 | joursOuvresEcoules=97 | escalade=True
+2026-09-04 07:18:43.668 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0010 | escalade=True
+2026-09-04 07:18:43.671 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0010/escalade - 200 - application/json;+charset=utf-8 5.8202ms
+2026-09-04 07:18:51.791 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0109/escalade - -
+2026-09-04 07:18:51.812 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0109 | priorite=Normale | engagement=5 | joursOuvresEcoules=29 | escalade=True
+2026-09-04 07:18:51.815 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0109 | escalade=True
+2026-09-04 07:18:51.817 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0109/escalade - 200 - application/json;+charset=utf-8 10.9312ms
+2026-09-04 07:19:24.125 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0028/escalade - -
+2026-09-04 07:19:24.133 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0028 | priorite=Critique | engagement=2 | joursOuvresEcoules=100 | escalade=True
+2026-09-04 07:19:24.138 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0028 | escalade=True
+2026-09-04 07:19:24.142 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0028/escalade - 200 - application/json;+charset=utf-8 17.2393ms
+2026-09-04 07:19:51.714 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0212/escalade - -
+2026-09-04 07:19:51.720 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0212 | priorite=Critique | engagement=2 | joursOuvresEcoules=142 | escalade=True
+2026-09-04 07:19:51.725 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0212 | escalade=True
+2026-09-04 07:19:51.727 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0212/escalade - 200 - application/json;+charset=utf-8 30.5509ms
+2026-09-04 07:19:55.727 warn ItAssist.Api.Infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:20:11.743 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0022/escalade - -
+2026-09-04 07:20:11.751 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0022 | priorite=Normale | engagement=5 | joursOuvresEcoules=49 | escalade=True
+2026-09-04 07:20:11.759 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0022 | escalade=True
+2026-09-04 07:20:11.761 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0022/escalade - 200 - application/json;+charset=utf-8 30.6416ms
+2026-09-04 07:20:50.801 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0215/escalade - -
+2026-09-04 07:20:50.809 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0215 | priorite=Basse | engagement=10 | joursOuvresEcoules=163 | escalade=True
+2026-09-04 07:20:50.810 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0215 | escalade=True
+2026-09-04 07:20:50.813 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0215/escalade - 200 - application/json;+charset=utf-8 18.1241ms
+2026-09-04 07:21:11.191 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0241/escalade - -
+2026-09-04 07:21:11.205 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0241 | priorite=Critique | engagement=2 | joursOuvresEcoules=2 | escalade=False
+2026-09-04 07:21:11.208 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0241 | escalade=False
+2026-09-04 07:21:11.211 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0241/escalade - 200 - application/json;+charset=utf-8 19.5659ms
+2026-09-04 07:21:22.211 warn ItAssist.Api.Infrastructure.JournalConsole Categorie sans equipe de rattachement | ticket=INC-2026-0731 | categorie=Cantine
+2026-09-04 07:21:48.345 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/tickets/INC-2026-0173/escalade - -
+2026-09-04 07:21:48.373 info ItAssist.Api.Infrastructure.JournalConsole Evaluation escalade | ticket=INC-2026-0173 | priorite=Normale | engagement=5 | joursOuvresEcoules=73 | escalade=True
+2026-09-04 07:21:48.378 info ItAssist.Api.Infrastructure.JournalConsole Escalade consultee | ticket=INC-2026-0173 | escalade=True
+2026-09-04 07:21:48.383 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets/INC-2026-0173/escalade - 200 - application/json;+charset=utf-8 24.7013ms
+2026-09-04 07:26:00.383 info Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5187/api/rapports/mensuel?mois=8&annee=2026 - -
+2026-09-04 07:26:01.195 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/rapports/mensuel - 200 - text/plain;+charset=utf-8 913.4471ms
+2026-09-04 07:28:39.195 fail ItAssist.Api.Infrastructure.JournalConsole Fichier de tickets absent | chemin=/srv/it-assist/data/tickets.jsonl
+2026-09-04 07:28:39.209 info Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET /api/tickets - 503 - application/json;+charset=utf-8 21.9903ms
+2026-09-04 07:37:44.209 warn ItAssist.Astreinte Signalement support N1 : deux tickets critiques ouverts depuis mardi ne sont pas remontes a l'astreinte, alors qu'un ticket de priorite haute ouvert le meme jour l'a ete.

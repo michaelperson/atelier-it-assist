@@ -1,0 +1,92 @@
+<!--
+  GABARIT — à remplir pendant l'atelier « Le socle ».
+
+  Ce fichier est le contexte projet que l'assistant lit automatiquement au
+  démarrage. Il ne remplace pas le README : le README s'adresse à un humain
+  qui découvre le projet, ce fichier s'adresse à un assistant qui va écrire du
+  code dedans.
+
+  Règle de rédaction unique : une ligne qui ne se vérifie pas dans un diff
+  n'a pas sa place ici. « Le code doit être propre » ne se vérifie pas.
+  « Aucune méthode publique ne renvoie null » se vérifie.
+
+  Objectif de taille : une page. Un fichier de trois pages n'est ni relu ni
+  maintenu, et ce qui n'est pas maintenu devient faux.
+
+  Renommez ce fichier en CLAUDE.md quand il est prêt.
+-->
+
+# IT-Assist — contexte projet
+
+## 1. Ce que fait l'application
+
+<!-- Trois phrases maximum. Le métier, pas la technique. -->
+
+## 2. Structure du dépôt
+
+<!--
+  Où se trouve quoi, et surtout : où NE PAS écrire.
+  Un assistant qui ne sait pas que legacy-cache/ est gelé y écrira.
+-->
+
+| Chemin | Contenu | Modifiable ? |
+|--------|---------|--------------|
+|        |         |              |
+
+## 3. Conventions de code — backend C#
+
+<!--
+  À trouver en lisant le code, pas à inventer. Pistes :
+  - Comment le domaine signale-t-il un cas de gestion en échec ?
+  - Où sont écrits les codes d'erreur ?
+  - Comment le code obtient-il la date du jour ? Pourquoi ?
+  - Comment journalise-t-il ? Qu'est-ce qui ne doit jamais être journalisé ?
+  - Quelle est la signature attendue d'une méthode d'entrée/sortie ?
+  - Combien de types publics par fichier ? Quel rapport entre espace de
+    noms et arborescence ?
+-->
+
+## 4. Conventions de code — frontend Angular
+
+<!--
+  Pistes :
+  - Composants autonomes ou modules ? État en signaux ou en champs ?
+  - Qui a le droit d'appeler HttpClient ?
+  - Que fait-on d'une souscription ?
+  - `any` est-il toléré ?
+  - Comparez liste-tickets.component.ts et tableau-bord.component.ts :
+    lequel est la référence, et à quoi le voit-on ?
+-->
+
+## 5. Tests
+
+<!--
+  - Quel cadre de test ? Quelle convention de nommage ?
+  - Comment obtient-on un ticket de test ?
+  - Comment remplace-t-on l'horloge ? Le journal ?
+  - Combien d'assertions logiques par test ?
+-->
+
+## 6. Ce qui est de la dette connue
+
+<!--
+  Distinguer explicitement le défaut de la limite acceptée.
+  Un assistant qui ne fait pas la différence « corrige » ce qu'on a décidé
+  de ne pas corriger, et passe à côté de ce qui est cassé.
+-->
+
+## 7. Commandes utiles
+
+<!-- Les commandes réelles, vérifiées. Une commande fausse ici coûte plus
+     cher qu'une commande absente. -->
+
+```bash
+```
+
+## 8. Ce que l'assistant ne doit pas faire
+
+<!--
+  La section la plus utile et la plus souvent oubliée.
+  Pistes : le fichier de données, le module Caché, les dépendances,
+  les migrations, les fichiers générés.
+-->

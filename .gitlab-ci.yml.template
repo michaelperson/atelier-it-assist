@@ -1,0 +1,99 @@
+# GABARIT — à compléter pendant l'atelier « Automatiser ».
+#
+# Ce fichier n'est pas exécuté pendant la formation : aucun exécuteur GitLab
+# n'est disponible. Il est écrit, relu et versionné comme un livrable — la
+# première exécution se fera dans votre propre projet, en connaissance de cause.
+#
+# Principe directeur : ce que fait un crochet Git local sur le poste du
+# développeur, l'intégration continue doit le refaire côté serveur. Un contrôle
+# qui n'existe que localement est un contrôle contournable.
+
+stages:
+  - build
+  - test
+  - qualite
+
+variables:
+  DOTNET_NOLOGO: "true"
+  DOTNET_CLI_TELEMETRY_OPTOUT: "true"
+
+default:
+  interruptible: true
+
+# ---------------------------------------------------------------------------
+# 1. Compilation
+# ---------------------------------------------------------------------------
+build-backend:
+  stage: build
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+  script:
+    - dotnet restore backend/ItAssist.sln
+    - dotnet build backend/ItAssist.sln --no-restore --configuration Release
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - backend/**/bin/Release/
+
+build-frontend:
+  stage: build
+  image: node:22-alpine
+  cache:
+    key:
+      files:
+        - frontend/package.json
+    paths:
+      - frontend/node_modules/
+  script:
+    - cd frontend
+    - npm ci || npm install
+    - npm run build
+
+# ---------------------------------------------------------------------------
+# 2. Tests
+# ---------------------------------------------------------------------------
+test-backend:
+  stage: test
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+  script:
+    # TODO(atelier) : produire un rapport exploitable par GitLab
+    #   --logger "junit;LogFilePath=..." et déclarer artifacts:reports:junit
+    - dotnet test backend/ItAssist.sln --configuration Release
+  # TODO(atelier) : décider si un test en échec bloque la fusion. Répondre
+  # explicitement : un pipeline non bloquant est un pipeline décoratif.
+
+test-outillage:
+  stage: test
+  image: python:3.12-slim
+  script:
+    # TODO(atelier) : exécuter les tests des scripts produits pendant les
+    # ateliers (anonymiseur, indexation, recherche).
+    - python -m unittest discover -s scripts/tests -v
+
+# ---------------------------------------------------------------------------
+# 3. Contrôles de qualité et de conformité
+# ---------------------------------------------------------------------------
+verif-secrets:
+  stage: qualite
+  image: python:3.12-slim
+  script:
+    # TODO(atelier) : refuser la présence d'un secret dans le diff.
+    # Le même contrôle que le crochet pre-push, côté serveur.
+    - echo "à implémenter"
+
+verif-donnees-personnelles:
+  stage: qualite
+  image: python:3.12-slim
+  script:
+    # TODO(atelier) : refuser l'ajout d'un export de tickets non anonymisé
+    # sous data/. C'est le contrôle qui rend la politique d'usage opposable.
+    - echo "à implémenter"
+  allow_failure: true
+
+# ---------------------------------------------------------------------------
+# Ce que ce fichier ne fait pas, volontairement
+# ---------------------------------------------------------------------------
+# Aucun appel à un modèle d'IA depuis l'intégration continue. Tant que la
+# question du secret d'API, du coût par exécution et du caractère
+# non déterministe du résultat n'est pas tranchée par écrit, la revue assistée
+# reste côté poste de travail. C'est une décision, pas un oubli — et elle est
+# à réexaminer, pas à graver.

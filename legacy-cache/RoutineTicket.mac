@@ -1,0 +1,84 @@
+ROUTINE RoutineTicket [Type=MAC]
+ ;
+ ; RoutineTicket - Gestion historique des tickets (portail interne, 2004)
+ ; Auteur d'origine parti. Ne plus modifier sans validation du responsable
+ ; applicatif : la routine est appelee par le batch de nuit ^JOBNUIT et par
+ ; l'ecran de saisie 3270 encore utilise sur le site de Namur.
+ ;
+ ; Structure du global :
+ ;   ^TICKET(id)          = titre^categorie^prio^statut^demandeur^service^site
+ ;   ^TICKET(id,"OUV")    = date interne $H d'ouverture
+ ;   ^TICKET(id,"RES")    = date interne $H de resolution (vide si non resolu)
+ ;   ^TICKET(id,"HIST",n) = horodatage^ancienStatut^nouveauStatut^operateur
+ ;   ^TICKETIDX("SRV",service,id) = ""
+ ;
+ q
+ ;
+CREER(titre,cat,prio,dem,srv,site) ; Cree un ticket, renvoie son identifiant
+ n id,ligne
+ s id=$i(^TICKET)
+ s ligne=titre_"^"_cat_"^"_prio_"^0^"_dem_"^"_srv_"^"_site
+ s ^TICKET(id)=ligne
+ s ^TICKET(id,"OUV")=$H
+ s ^TICKETIDX("SRV",srv,id)=""
+ d TRACE(id,"","0")
+ q id
+ ;
+STATUT(id,nouveau,operateur) ; Change le statut, applique les transitions permises
+ n ligne,ancien,n
+ i '$d(^TICKET(id)) q "ERR_TICKET_INCONNU"
+ s ligne=^TICKET(id)
+ s ancien=$p(ligne,"^",4)
+ i ancien=4 q "ERR_TRANSITION_INTERDITE"
+ i (ancien=3)&(nouveau'=1)&(nouveau'=4) q "ERR_TRANSITION_INTERDITE"
+ s $p(ligne,"^",4)=nouveau
+ s ^TICKET(id)=ligne
+ i nouveau=3 s ^TICKET(id,"RES")=$H
+ d TRACE(id,ancien,nouveau,operateur)
+ q "OK"
+ ;
+TRACE(id,ancien,nouveau,operateur) ; Ajoute une ligne d'historique
+ n n
+ s n=$g(^TICKET(id,"HIST"))+1
+ s ^TICKET(id,"HIST")=n
+ s ^TICKET(id,"HIST",n)=$H_","_$P_"^"_ancien_"^"_nouveau_"^"_$g(operateur,$USERNAME)
+ q
+ ;
+DELAIOUV(id) ; Nombre de jours ouvres depuis l'ouverture. Extrinseque.
+ n ouv,fin,j,n
+ i '$d(^TICKET(id,"OUV")) q -1
+ s ouv=+^TICKET(id,"OUV")
+ s fin=$s($g(^TICKET(id,"RES"))'="":+^TICKET(id,"RES"),1:+$H)
+ s n=0
+ f j=ouv:1:fin-1 d
+ . i ($zd(j,10)'="") d
+ . . n jsem
+ . . s jsem=(j+3)#7
+ . . i (jsem'=5)&(jsem'=6) s n=n+1
+ q n
+ ;
+PARSRV(srv,liste) ; Remplit liste (tableau local) avec les ids d'un service
+ n id
+ s id=""
+ f  s id=$o(^TICKETIDX("SRV",srv,id)) q:id=""  s liste(id)=^TICKET(id)
+ q
+ ;
+RECALCIDX ; Reconstruit l'index par service. A lancer apres import massif.
+ n id,srv
+ k ^TICKETIDX("SRV")
+ s id=""
+ f  s id=$o(^TICKET(id)) q:id=""  d
+ . s srv=$p(^TICKET(id),"^",6)
+ . i srv'="" s ^TICKETIDX("SRV",srv,id)=""
+ q
+ ;
+EXPORT(fichier) ; Export delimite pour le portail .NET
+ n id,ligne
+ o fichier:("NRW"):5 e  q "ERR_FICHIER"
+ u fichier
+ s id=""
+ f  s id=$o(^TICKET(id)) q:id=""  d
+ . s ligne=id_"|"_$tr(^TICKET(id),"^","|")_"|"_$$DELAIOUV(id)
+ . w ligne,!
+ c fichier
+ q "OK"

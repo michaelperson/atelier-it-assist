@@ -1,0 +1,19 @@
+# .NET
+bin/
+obj/
+*.user
+# Node / Angular
+node_modules/
+dist/
+.angular/
+*.tsbuildinfo
+# Python (outillage d'atelier)
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Environnement local
+.env
+*.local
+# Journaux produits localement
+logs/*.local.log
