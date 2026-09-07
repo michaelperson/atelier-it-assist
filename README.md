@@ -88,9 +88,7 @@ Le reste n'est pas de la dette assumée. Le reste est à regarder.
 
 ## Périmètre de vérification
 
-Le code C# et le code Angular de ce dépôt ont été **relus**, pas compilés : la machine qui a produit le
-support n'a ni SDK .NET ni chaîne de construction Angular installée. Les éléments effectivement exécutés et vérifiés
-sont le jeu de données, le journal applicatif et l'outillage Python des ateliers.
+Le code C# et le code Angular de ce dépôt ont été **juste compilés**.  
 
-Si `dotnet build` ou `npm run build` signale une erreur de compilation, ce n'est pas un exercice
+Si `dotnet build` ou `npm run build` ou `ng build` signale une erreur de compilation, ce n'est pas un exercice
 caché : c'est un défaut du support, et il faut le signaler.
