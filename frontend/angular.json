@@ -18,7 +18,10 @@
         },
         "serve": {
           "builder": "@angular/build:dev-server",
-          "options": { "buildTarget": "it-assist-front:build" }
+          "options": {
+            "buildTarget": "it-assist-front:build",
+            "proxyConfig": "proxy.conf.js"
+          }
         }
       }
     }
