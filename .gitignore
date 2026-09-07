@@ -17,3 +17,4 @@ venv/
 *.local
 # Journaux produits localement
 logs/*.local.log
+/.vs/CopilotSnapshots/DF33A4529E44C745932D9DB16B221479
