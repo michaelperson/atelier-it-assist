@@ -1,20 +1,107 @@
-# .NET
+# ============================================
+# Visual Studio / IDE
+# ============================================
+.vs/
+.vscode/
+.idea/
+*.code-workspace
+*.sln.iml
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.swp
+*.sln.iml
+launch.json
+settings.json
+
+# ============================================
+# Build results - .NET
+# ============================================
 bin/
 obj/
-*.user
-# Node / Angular
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# ============================================
+# NuGet
+# ============================================
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.assets.json
+project.lock.json
+
+# ============================================
+# Node / Angular / Frontend
+# ============================================
 node_modules/
 dist/
 .angular/
 *.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================
 # Python (outillage d'atelier)
+# ============================================
 __pycache__/
 *.pyc
 .venv/
 venv/
+*.egg-info/
+*.eggs/
+
+# ============================================
 # Environnement local
+# ============================================
 .env
+.env.local
 *.local
-# Journaux produits localement
+.env.*.local
+
+# ============================================
+# Journaux et files temporaires
+# ============================================
 logs/*.local.log
-/.vs/CopilotSnapshots/DF33A4529E44C745932D9DB16B221479
+*.log
+*.tmp
+*.bak
+*~
+
+# ============================================
+# OS-specific files
+# ============================================
+.DS_Store
+Thumbs.db
+*.lnk
+desktop.ini
+
+# ============================================
+# IDE-specific cache files
+# ============================================
+.ReSharper*/
+_ReSharper*/
+*.DotSettings.user
+.dotCover/
+.vscode/
+.vs/snapshots/
+
+# ============================================
+# Rider
+# ============================================
+.idea/
+*.sln.iml

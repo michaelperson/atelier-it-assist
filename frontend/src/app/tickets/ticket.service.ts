@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Escalade, Ticket } from './modele';
@@ -13,7 +13,7 @@ export class TicketService {
   private readonly base = '/api/tickets';
 
   lister(service?: string): Observable<readonly Ticket[]> {
-    const params = service ? { service } : {};
+    const params = service ? new HttpParams().set('service', service) : undefined;
     return this.http.get<readonly Ticket[]>(this.base, { params });
   }
 

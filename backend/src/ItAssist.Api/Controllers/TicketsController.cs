@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("api/tickets")]
+[Tags("Tickets")]
 public sealed class TicketsController : ControllerBase
 {
     private readonly IDepotTickets _depot;
@@ -19,6 +20,12 @@ public sealed class TicketsController : ControllerBase
         _journal = journal;
     }
 
+    /// <summary>
+    /// Liste tous les tickets ou les tickets d'un service spécifique.
+    /// </summary>
+    /// <param name="service">Nom du service (optionnel)</param>
+    /// <param name="jeton">Token d'annulation</param>
+    /// <returns>Liste des tickets</returns>
     [HttpGet]
     public async Task<IActionResult> Lister([FromQuery] string? service, CancellationToken jeton)
     {
@@ -31,6 +38,12 @@ public sealed class TicketsController : ControllerBase
             : VersReponse(resultat.CodeErreur);
     }
 
+    /// <summary>
+    /// Récupère un ticket par son ID.
+    /// </summary>
+    /// <param name="id">Identifiant du ticket</param>
+    /// <param name="jeton">Token d'annulation</param>
+    /// <returns>Le ticket demandé</returns>
     [HttpGet("{id}")]
     public async Task<IActionResult> ParId(string id, CancellationToken jeton)
     {
@@ -40,6 +53,12 @@ public sealed class TicketsController : ControllerBase
             : VersReponse(resultat.CodeErreur);
     }
 
+    /// <summary>
+    /// Consulte les informations d'escalade d'un ticket.
+    /// </summary>
+    /// <param name="id">Identifiant du ticket</param>
+    /// <param name="jeton">Token d'annulation</param>
+    /// <returns>Informations d'escalade du ticket</returns>
     [HttpGet("{id}/escalade")]
     public async Task<IActionResult> Escalade(string id, CancellationToken jeton)
     {
