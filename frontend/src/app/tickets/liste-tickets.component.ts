@@ -15,7 +15,12 @@ import { TicketService } from './ticket.service';
   template: `
     <label>
       Filtrer par service
-      <input [value]="filtre()" (input)="majFiltre($event)" />
+      <select [value]="filtre()" (change)="majFiltre($event)">
+        <option value="">Tous les services</option>
+        @for (service of services(); track service) {
+          <option [value]="service">{{ service }}</option>
+        }
+      </select>
     </label>
 
     @if (chargement()) {
@@ -44,12 +49,18 @@ export class ListeTicketsComponent {
   protected readonly chargement = signal(true);
   protected readonly erreur = signal<string | null>(null);
 
+  protected readonly services = computed(() =>
+    [...new Set(this.tickets().map((ticket) => ticket.service))].sort((serviceA, serviceB) =>
+      serviceA.localeCompare(serviceB, 'fr'),
+    ),
+  );
+
   protected readonly visibles = computed(() => {
-    const terme = this.filtre().trim().toLowerCase();
-    if (terme === '') {
+    const serviceSelectionne = this.filtre();
+    if (serviceSelectionne === '') {
       return this.tickets();
     }
-    return this.tickets().filter((t) => t.service.toLowerCase().includes(terme));
+    return this.tickets().filter((ticket) => ticket.service === serviceSelectionne);
   });
 
   constructor() {
@@ -69,6 +80,6 @@ export class ListeTicketsComponent {
   }
 
   protected majFiltre(evenement: Event): void {
-    this.filtre.set((evenement.target as HTMLInputElement).value);
+    this.filtre.set((evenement.target as HTMLSelectElement).value);
   }
 }
